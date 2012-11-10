@@ -5,7 +5,9 @@ UIWebView is a simple tabbed application where the developer can add multiple li
 
 In summary, this app is a Safari for the websites you choose.
 
-![](https://raw.github.com/avijeets/UIWebView/master/example1.png?raw=true) 
+<a href="http://avijeets.com/">
+![](https://raw.github.com/avijeets/UIWebView/master/example1.png?raw=true)
+<a href="http://avijeets.com/blog">
 ![](https://raw.github.com/avijeets/UIWebView/master/example2.png?raw=true)
 
 Installation 
