@@ -5,3 +5,19 @@ UIWebView is a simple tabbed application where the developer can add multiple li
 
 In summary, this app is a Safari for the websites you choose.
 
+Installation 
+====
+
+To add your own links to this application, you must first tell the program you're adding a website to it.
+
+In that tab's ViewController.h add:
+
+    IBOutlet UIWebView *firstPage;
+
+Then, go to the same tab's ViewController.m and add:
+
+    [firstPage loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"YOUR URL"]]];
+
+After, go to the Storyboard file, double click on that tab's Tab Bar Controller, and CTRL-drag 'firstPage' to the tab.
+
+Do the same for the rest of your tabs, and each tab will have the website you set to it. 
