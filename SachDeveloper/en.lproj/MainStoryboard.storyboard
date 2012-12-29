@@ -14,12 +14,33 @@
                         <subviews>
                             <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4KF-Zg-zHR">
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="460" id="2u5-YV-upi"/>
+                                </constraints>
                             </webView>
+                            <navigationBar contentMode="scaleToFill" barStyle="blackOpaque" translatesAutoresizingMaskIntoConstraints="NO" id="Bea-8S-NV1">
+                                <items>
+                                    <navigationItem title="Home" id="mjK-Tu-BWT">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="HVo-fc-skJ">
+                                            <connections>
+                                                <action selector="goBack" destination="4KF-Zg-zHR" id="cIr-ND-pi2"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" title="Forward" id="cUZ-sK-gZ6">
+                                            <connections>
+                                                <action selector="goForward" destination="4KF-Zg-zHR" id="8QE-Pj-zBq"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="4KF-Zg-zHR" firstAttribute="top" secondItem="16" secondAttribute="top" type="default" id="JIt-un-dBf"/>
+                            <constraint firstItem="Bea-8S-NV1" firstAttribute="trailing" secondItem="16" secondAttribute="trailing" type="default" id="1y7-hm-qOr"/>
                             <constraint firstItem="4KF-Zg-zHR" firstAttribute="bottom" secondItem="16" secondAttribute="bottom" type="default" id="NSd-6w-1MC"/>
+                            <constraint firstItem="Bea-8S-NV1" firstAttribute="top" secondItem="16" secondAttribute="top" type="default" id="WXf-sv-El7"/>
+                            <constraint firstItem="Bea-8S-NV1" firstAttribute="leading" secondItem="16" secondAttribute="leading" type="default" id="Ymv-CS-iyN"/>
                             <constraint firstItem="4KF-Zg-zHR" firstAttribute="trailing" secondItem="16" secondAttribute="trailing" type="default" id="s4a-Mf-qVc"/>
                             <constraint firstItem="4KF-Zg-zHR" firstAttribute="leading" secondItem="16" secondAttribute="leading" type="default" id="uww-H7-se8"/>
                         </constraints>
@@ -44,13 +65,32 @@
                             <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dru-fF-BQu">
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </webView>
+                            <navigationBar contentMode="scaleToFill" barStyle="blackOpaque" translatesAutoresizingMaskIntoConstraints="NO" id="i0C-eG-rrV">
+                                <items>
+                                    <navigationItem title="Home" id="4mz-KO-PdK">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="oL7-iP-Lro">
+                                            <connections>
+                                                <action selector="goBack" destination="Dru-fF-BQu" id="etr-Pi-nJ8"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" title="Forward" id="XsJ-7N-Dfp">
+                                            <connections>
+                                                <action selector="goForward" destination="Dru-fF-BQu" id="qGb-Qa-VDg"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="i0C-eG-rrV" firstAttribute="trailing" secondItem="17" secondAttribute="trailing" type="default" id="2pG-56-ags"/>
                             <constraint firstItem="Dru-fF-BQu" firstAttribute="bottom" secondItem="17" secondAttribute="bottom" type="default" id="3B6-fs-Fxk"/>
+                            <constraint firstItem="Dru-fF-BQu" firstAttribute="top" secondItem="i0C-eG-rrV" secondAttribute="bottom" type="default" id="3Xc-2X-J58"/>
                             <constraint firstItem="Dru-fF-BQu" firstAttribute="trailing" secondItem="17" secondAttribute="trailing" type="default" id="Pae-Ng-UK5"/>
+                            <constraint firstItem="i0C-eG-rrV" firstAttribute="leading" secondItem="17" secondAttribute="leading" type="default" id="WQ0-Hx-2vG"/>
+                            <constraint firstItem="i0C-eG-rrV" firstAttribute="top" secondItem="17" secondAttribute="top" type="default" id="atl-od-Yqw"/>
                             <constraint firstItem="Dru-fF-BQu" firstAttribute="leading" secondItem="17" secondAttribute="leading" type="default" id="l8M-iS-FoX"/>
-                            <constraint firstItem="Dru-fF-BQu" firstAttribute="top" secondItem="17" secondAttribute="top" type="default" id="zOy-Y5-xPM"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Blog" image="second" id="6"/>
