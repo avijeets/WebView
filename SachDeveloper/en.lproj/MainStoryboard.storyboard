@@ -67,7 +67,7 @@
                             </webView>
                             <navigationBar contentMode="scaleToFill" barStyle="blackOpaque" translatesAutoresizingMaskIntoConstraints="NO" id="i0C-eG-rrV">
                                 <items>
-                                    <navigationItem title="Home" id="4mz-KO-PdK">
+                                    <navigationItem title="Blog" id="4mz-KO-PdK">
                                         <barButtonItem key="leftBarButtonItem" title="Back" id="oL7-iP-Lro">
                                             <connections>
                                                 <action selector="goBack" destination="Dru-fF-BQu" id="etr-Pi-nJ8"/>
