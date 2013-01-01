@@ -17,7 +17,9 @@
 - (void)viewDidLoad
 {
     //Home page (first tab)
-    [homePage loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://avijeets.com/"]]];
+    NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle]pathForResource:@"index.html" ofType:nil]];
+    NSURLRequest *request = [NSURLRequest requestWithURL:url];
+    [homePage loadRequest:request];
     
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
