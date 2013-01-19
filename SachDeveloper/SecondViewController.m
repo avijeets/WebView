@@ -18,7 +18,7 @@
 {
     
     //Blog (second tab)
-    [blog loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://avijeets.com/blog"]]];
+    [blog loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.avijeet.me/"]]];
     
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
