@@ -15,7 +15,7 @@
                             <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4KF-Zg-zHR">
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </webView>
-                            <navigationBar contentMode="scaleToFill" barStyle="blackOpaque" translatesAutoresizingMaskIntoConstraints="NO" id="Bea-8S-NV1">
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bea-8S-NV1">
                                 <items>
                                     <navigationItem title="Home" id="mjK-Tu-BWT">
                                         <barButtonItem key="leftBarButtonItem" title="Back" id="HVo-fc-skJ">
@@ -63,7 +63,7 @@
                             <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dru-fF-BQu">
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </webView>
-                            <navigationBar contentMode="scaleToFill" barStyle="blackOpaque" translatesAutoresizingMaskIntoConstraints="NO" id="i0C-eG-rrV">
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i0C-eG-rrV">
                                 <items>
                                     <navigationItem title="Blog" id="4mz-KO-PdK">
                                         <barButtonItem key="leftBarButtonItem" title="Back" id="oL7-iP-Lro">
