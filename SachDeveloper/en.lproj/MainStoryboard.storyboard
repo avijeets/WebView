@@ -15,17 +15,33 @@
                             <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4KF-Zg-zHR">
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </webView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MBY-py-Wrh">
+                                <items>
+                                    <barButtonItem style="plain" systemItem="refresh" id="5Hk-mL-ILI">
+                                        <connections>
+                                            <action selector="reload" destination="4KF-Zg-zHR" id="PjP-5j-pbJ"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem width="42" style="plain" systemItem="fixedSpace" id="uLd-I6-u39"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="Xqo-Tn-XW1"/>
+                                    <barButtonItem style="plain" systemItem="stop" id="Alc-Sb-Z5G">
+                                        <connections>
+                                            <action selector="stopLoading" destination="4KF-Zg-zHR" id="NmS-Ru-kH4"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bea-8S-NV1">
                                 <items>
                                     <navigationItem title="Home" id="mjK-Tu-BWT">
-                                        <barButtonItem key="leftBarButtonItem" title="Back" id="HVo-fc-skJ">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="FOd-hR-s8y">
                                             <connections>
-                                                <action selector="goBack" destination="4KF-Zg-zHR" id="cIr-ND-pi2"/>
+                                                <action selector="goBack" destination="4KF-Zg-zHR" id="spf-xX-ZAf"/>
                                             </connections>
                                         </barButtonItem>
-                                        <barButtonItem key="rightBarButtonItem" title="Forward" id="cUZ-sK-gZ6">
+                                        <barButtonItem key="rightBarButtonItem" title="Forward" id="JFj-dg-gM1">
                                             <connections>
-                                                <action selector="goForward" destination="4KF-Zg-zHR" id="8QE-Pj-zBq"/>
+                                                <action selector="goForward" destination="4KF-Zg-zHR" id="8vw-cE-Yy9"/>
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>
@@ -35,10 +51,13 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="Bea-8S-NV1" firstAttribute="trailing" secondItem="16" secondAttribute="trailing" type="default" id="1y7-hm-qOr"/>
+                            <constraint firstItem="MBY-py-Wrh" firstAttribute="bottom" secondItem="16" secondAttribute="bottom" type="default" id="24N-cS-Q8I"/>
                             <constraint firstItem="4KF-Zg-zHR" firstAttribute="bottom" secondItem="16" secondAttribute="bottom" type="default" id="NSd-6w-1MC"/>
                             <constraint firstItem="Bea-8S-NV1" firstAttribute="top" secondItem="16" secondAttribute="top" type="default" id="WXf-sv-El7"/>
                             <constraint firstItem="Bea-8S-NV1" firstAttribute="leading" secondItem="16" secondAttribute="leading" type="default" id="Ymv-CS-iyN"/>
+                            <constraint firstItem="MBY-py-Wrh" firstAttribute="leading" secondItem="16" secondAttribute="leading" type="default" id="boc-a6-6Tv"/>
                             <constraint firstItem="4KF-Zg-zHR" firstAttribute="trailing" secondItem="16" secondAttribute="trailing" type="default" id="s4a-Mf-qVc"/>
+                            <constraint firstItem="MBY-py-Wrh" firstAttribute="trailing" secondItem="16" secondAttribute="trailing" type="default" id="s8B-cc-8wu"/>
                             <constraint firstItem="4KF-Zg-zHR" firstAttribute="leading" secondItem="16" secondAttribute="leading" type="default" id="uww-H7-se8"/>
                             <constraint firstItem="4KF-Zg-zHR" firstAttribute="top" secondItem="Bea-8S-NV1" secondAttribute="bottom" type="default" id="xBC-W9-emA"/>
                         </constraints>
@@ -71,23 +90,42 @@
                                                 <action selector="goBack" destination="Dru-fF-BQu" id="etr-Pi-nJ8"/>
                                             </connections>
                                         </barButtonItem>
-                                        <barButtonItem key="rightBarButtonItem" title="Forward" id="XsJ-7N-Dfp">
+                                        <barButtonItem key="rightBarButtonItem" title="Forward" id="GEM-Xm-0aH">
                                             <connections>
-                                                <action selector="goForward" destination="Dru-fF-BQu" id="qGb-Qa-VDg"/>
+                                                <action selector="goForward" destination="Dru-fF-BQu" id="Znr-FY-Eju"/>
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gVd-SS-ZhC">
+                                <items>
+                                    <barButtonItem style="plain" systemItem="refresh" id="Fns-JV-XVt">
+                                        <connections>
+                                            <action selector="reload" destination="Dru-fF-BQu" id="tZk-zb-qKr"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem width="42" style="plain" systemItem="fixedSpace" id="EWx-PP-OJ8"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="K2G-AY-UeI"/>
+                                    <barButtonItem style="plain" systemItem="stop" id="qhE-0m-GNI">
+                                        <connections>
+                                            <action selector="stopLoading" destination="Dru-fF-BQu" id="xMg-zc-beg"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="i0C-eG-rrV" firstAttribute="trailing" secondItem="17" secondAttribute="trailing" type="default" id="2pG-56-ags"/>
                             <constraint firstItem="Dru-fF-BQu" firstAttribute="bottom" secondItem="17" secondAttribute="bottom" type="default" id="3B6-fs-Fxk"/>
+                            <constraint firstItem="gVd-SS-ZhC" firstAttribute="bottom" secondItem="17" secondAttribute="bottom" type="default" id="HLe-yo-epQ"/>
                             <constraint firstItem="Dru-fF-BQu" firstAttribute="trailing" secondItem="17" secondAttribute="trailing" type="default" id="Pae-Ng-UK5"/>
                             <constraint firstItem="i0C-eG-rrV" firstAttribute="leading" secondItem="17" secondAttribute="leading" type="default" id="WQ0-Hx-2vG"/>
+                            <constraint firstItem="gVd-SS-ZhC" firstAttribute="leading" secondItem="17" secondAttribute="leading" type="default" id="YX3-Uw-Uho"/>
                             <constraint firstItem="i0C-eG-rrV" firstAttribute="top" secondItem="17" secondAttribute="top" type="default" id="atl-od-Yqw"/>
                             <constraint firstItem="Dru-fF-BQu" firstAttribute="top" secondItem="i0C-eG-rrV" secondAttribute="bottom" type="default" id="bA1-vB-IVa"/>
+                            <constraint firstItem="gVd-SS-ZhC" firstAttribute="trailing" secondItem="17" secondAttribute="trailing" type="default" id="c1h-He-RMJ"/>
                             <constraint firstItem="Dru-fF-BQu" firstAttribute="leading" secondItem="17" secondAttribute="leading" type="default" id="l8M-iS-FoX"/>
                         </constraints>
                     </view>
