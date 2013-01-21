@@ -50,12 +50,12 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="MBY-py-Wrh" firstAttribute="top" secondItem="4KF-Zg-zHR" secondAttribute="bottom" type="default" id="7Sn-98-HlG"/>
                             <constraint firstItem="MBY-py-Wrh" firstAttribute="trailing" secondItem="16" secondAttribute="trailing" type="default" id="MG4-qy-8OP"/>
                             <constraint firstItem="Bea-8S-NV1" firstAttribute="leading" secondItem="16" secondAttribute="leading" type="default" id="Rz8-oD-hdB"/>
+                            <constraint firstItem="MBY-py-Wrh" firstAttribute="bottom" secondItem="16" secondAttribute="bottom" type="default" id="Ufg-ei-Kjk"/>
                             <constraint firstItem="Bea-8S-NV1" firstAttribute="trailing" secondItem="16" secondAttribute="trailing" type="default" id="Xb7-FW-Nq6"/>
-                            <constraint firstItem="4KF-Zg-zHR" firstAttribute="centerY" secondItem="16" secondAttribute="centerY" type="default" id="YIa-mk-xwJ"/>
                             <constraint firstItem="MBY-py-Wrh" firstAttribute="leading" secondItem="16" secondAttribute="leading" type="default" id="YVf-rx-KJd"/>
-                            <constraint firstItem="MBY-py-Wrh" firstAttribute="top" secondItem="16" secondAttribute="top" constant="235" id="kKO-4y-j3y"/>
                             <constraint firstItem="Bea-8S-NV1" firstAttribute="top" secondItem="16" secondAttribute="top" type="default" id="pi3-Cb-Eev"/>
                             <constraint firstItem="4KF-Zg-zHR" firstAttribute="trailing" secondItem="16" secondAttribute="trailing" type="default" id="s4a-Mf-qVc"/>
                             <constraint firstItem="4KF-Zg-zHR" firstAttribute="leading" secondItem="16" secondAttribute="leading" type="default" id="uww-H7-se8"/>
@@ -85,14 +85,14 @@
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i0C-eG-rrV">
                                 <items>
                                     <navigationItem title="Blog" id="4mz-KO-PdK">
-                                        <barButtonItem key="leftBarButtonItem" title="Back" id="oL7-iP-Lro">
+                                        <barButtonItem key="leftBarButtonItem" style="plain" systemItem="refresh" id="Fns-JV-XVt">
                                             <connections>
-                                                <action selector="goBack" destination="Dru-fF-BQu" id="etr-Pi-nJ8"/>
+                                                <action selector="reload" destination="Dru-fF-BQu" id="tZk-zb-qKr"/>
                                             </connections>
                                         </barButtonItem>
-                                        <barButtonItem key="rightBarButtonItem" title="Forward" id="GEM-Xm-0aH">
+                                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="stop" id="qhE-0m-GNI">
                                             <connections>
-                                                <action selector="goForward" destination="Dru-fF-BQu" id="Znr-FY-Eju"/>
+                                                <action selector="stopLoading" destination="Dru-fF-BQu" id="xMg-zc-beg"/>
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>
@@ -100,16 +100,16 @@
                             </navigationBar>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gVd-SS-ZhC">
                                 <items>
-                                    <barButtonItem style="plain" systemItem="refresh" id="Fns-JV-XVt">
+                                    <barButtonItem title="Back" id="oL7-iP-Lro">
                                         <connections>
-                                            <action selector="reload" destination="Dru-fF-BQu" id="tZk-zb-qKr"/>
+                                            <action selector="goBack" destination="Dru-fF-BQu" id="etr-Pi-nJ8"/>
                                         </connections>
                                     </barButtonItem>
                                     <barButtonItem width="42" style="plain" systemItem="fixedSpace" id="EWx-PP-OJ8"/>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="K2G-AY-UeI"/>
-                                    <barButtonItem style="plain" systemItem="stop" id="qhE-0m-GNI">
+                                    <barButtonItem title="Forward" id="GEM-Xm-0aH">
                                         <connections>
-                                            <action selector="stopLoading" destination="Dru-fF-BQu" id="xMg-zc-beg"/>
+                                            <action selector="goForward" destination="Dru-fF-BQu" id="Znr-FY-Eju"/>
                                         </connections>
                                     </barButtonItem>
                                 </items>
