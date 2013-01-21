@@ -36,11 +36,11 @@
                         <constraints>
                             <constraint firstItem="Bea-8S-NV1" firstAttribute="trailing" secondItem="16" secondAttribute="trailing" type="default" id="1y7-hm-qOr"/>
                             <constraint firstItem="4KF-Zg-zHR" firstAttribute="bottom" secondItem="16" secondAttribute="bottom" type="default" id="NSd-6w-1MC"/>
-                            <constraint firstItem="4KF-Zg-zHR" firstAttribute="top" secondItem="Bea-8S-NV1" secondAttribute="bottom" type="default" id="Ont-YQ-lW2"/>
                             <constraint firstItem="Bea-8S-NV1" firstAttribute="top" secondItem="16" secondAttribute="top" type="default" id="WXf-sv-El7"/>
                             <constraint firstItem="Bea-8S-NV1" firstAttribute="leading" secondItem="16" secondAttribute="leading" type="default" id="Ymv-CS-iyN"/>
                             <constraint firstItem="4KF-Zg-zHR" firstAttribute="trailing" secondItem="16" secondAttribute="trailing" type="default" id="s4a-Mf-qVc"/>
                             <constraint firstItem="4KF-Zg-zHR" firstAttribute="leading" secondItem="16" secondAttribute="leading" type="default" id="uww-H7-se8"/>
+                            <constraint firstItem="4KF-Zg-zHR" firstAttribute="top" secondItem="Bea-8S-NV1" secondAttribute="bottom" type="default" id="xBC-W9-emA"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Home" image="first" id="7"/>
