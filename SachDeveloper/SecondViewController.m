@@ -17,17 +17,18 @@
 - (void)viewDidLoad
 {
     
-    //Blog (second tab)
+    /*
+     Blog (second tab)
+     This tab uses UIWebView to view a URL, instead of any files in the document folder
+    */
     [blog loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.avijeet.me/"]]];
     
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 @end

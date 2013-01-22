@@ -16,19 +16,23 @@
 
 - (void)viewDidLoad
 {
-    //Home page (first tab)
+    /*
+     Home page (first tab)
+     The first tab uses UIWebView to display an HTML document
+     You can use UIWebView to display document file types such as:
+            XLS, PDF, HTML, DOC, PPT, Pages, Numbers, Keynote
+     The SecondViewController shows how to use UIWebView strictly for viewing a website
+    */
     NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle]pathForResource:@"index.html" ofType:nil]];
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
     [homePage loadRequest:request];
     
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 @end
