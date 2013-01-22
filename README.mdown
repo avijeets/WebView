@@ -1,9 +1,9 @@
 Summary
 ====
 
-UIWebView is a simple tabbed application where the developer can add multiple links to each tab, and the iPhone will consider it a webpage.
+UIWebView is a simple tabbed application where the developer can add multiple links to each tab, and the iPhone will load it as a webpage within the application.
 
-In summary, this app is a Safari for the websites you choose.
+In summary, this app is a Safari for the websites the developer chooses.
 
 <a href="http://avijeets.com/">
 ![](https://raw.github.com/avijeets/WebView/master/example1.png?raw=true)
