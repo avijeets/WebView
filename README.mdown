@@ -19,10 +19,19 @@ In that tab's ViewController.h add:
 
     IBOutlet UIWebView *firstPage;
 
-Then, go to the same tab's ViewController.m and add:
+Then, go to the same tab's ViewController.m. To use UIWebView for direct URLs use:
 
     [firstPage loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"YOUR URL"]]];
 
-After, go to the Storyboard file, double click on that tab's Tab Bar Controller, and CTRL-drag 'firstPage' to the tab.
+If you're using UIWebView for files (such as HTML, PDF, PPT, DOC, etc.), use:
+
+        NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle]pathForResource:@"yourFileName.extensionType" ofType:nil]];
+        NSURLRequest *request = [NSURLRequest requestWithURL:url];
+        [firstPage loadRequest:request];
+
+
+After, go to the Storyboard (or xib/nib) file, and add a 'Web View' button to the tab(s). Once that's done, double click on that tab's Tab Bar Controller, and CTRL-drag 'firstPage' to the tab.
+
+*If you want to add Refresh, Stop, Back, and Forward buttons to your app, simply right-click on the UIWebView field of your tab, and CTRL-Drag reload, stopLoading, goBack, and goForward to its respective button.
 
 Do the same for the rest of your tabs, and each tab will have the website you set to it. 
