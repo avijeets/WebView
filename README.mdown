@@ -30,7 +30,7 @@ If you're using UIWebView for files (such as HTML, PDF, PPT, DOC, etc.), use:
     [firstPage loadRequest:request];
 
 
-After, go to the Storyboard (or xib/nib) file, and add a 'Web View' button to the tab(s). Once that's done, double click on that tab's Tab Bar Controller, and CTRL-drag 'firstPage' to the tab.
+After, go to the Storyboard (or xib) file, and add a 'Web View' button to the tab(s). Once that's done, double click on that tab's Tab Bar Controller, and CTRL-drag 'firstPage' to the tab.
 
 *If you want to add Refresh, Stop, Back, and Forward buttons to your app, simply right-click on the UIWebView field of your tab, and CTRL-Drag reload, stopLoading, goBack, and goForward to its respective button.
 
