@@ -18,7 +18,7 @@
 {
     /*
      Home page (first tab)
-     The first tab uses UIWebView to display an HTML document
+     The first tab uses UIWebView to display an PDF document
      You can use UIWebView to display document file types such as:
             XLS, PDF, HTML, DOC, PPT, Pages, Numbers, Keynote
      The SecondViewController shows how to use UIWebView strictly for viewing a website
