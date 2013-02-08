@@ -18,18 +18,7 @@
                             </webView>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bea-8S-NV1">
                                 <items>
-                                    <navigationItem title="Book" id="mjK-Tu-BWT">
-                                        <barButtonItem key="leftBarButtonItem" style="plain" systemItem="refresh" id="5Hk-mL-ILI">
-                                            <connections>
-                                                <action selector="reload" destination="4KF-Zg-zHR" id="PjP-5j-pbJ"/>
-                                            </connections>
-                                        </barButtonItem>
-                                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="stop" id="Alc-Sb-Z5G">
-                                            <connections>
-                                                <action selector="stopLoading" destination="4KF-Zg-zHR" id="NmS-Ru-kH4"/>
-                                            </connections>
-                                        </barButtonItem>
-                                    </navigationItem>
+                                    <navigationItem title="Book" id="mjK-Tu-BWT"/>
                                 </items>
                             </navigationBar>
                         </subviews>
