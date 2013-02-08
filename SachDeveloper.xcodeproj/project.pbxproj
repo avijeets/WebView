@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9A4A41E7164E065B00BAA525 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A4A41E5164E065B00BAA525 /* first.png */; };
-		9A4A41E8164E065B00BAA525 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A4A41E6164E065B00BAA525 /* first@2x.png */; };
-		9A4A41EB164E066700BAA525 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A4A41E9164E066700BAA525 /* second.png */; };
-		9A4A41EC164E066700BAA525 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A4A41EA164E066700BAA525 /* second@2x.png */; };
-		9AA5F266169398820030536E /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 9AA5F265169398820030536E /* index.html */; };
+		9ACF903F16C58EDC00063E35 /* Getting Real.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9ACF903E16C58EDC00063E35 /* Getting Real.pdf */; };
+		9ACF904216C5915200063E35 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ACF904016C5915200063E35 /* first.png */; };
+		9ACF904316C5915200063E35 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ACF904116C5915200063E35 /* first@2x.png */; };
+		9ACF904616C593D600063E35 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ACF904416C593D600063E35 /* second.png */; };
+		9ACF904716C593D600063E35 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ACF904516C593D600063E35 /* second@2x.png */; };
 		9AE325C6164CFAF300CD3379 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AE325C5164CFAF300CD3379 /* UIKit.framework */; };
 		9AE325C8164CFAF300CD3379 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AE325C7164CFAF300CD3379 /* Foundation.framework */; };
 		9AE325CA164CFAF300CD3379 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AE325C9164CFAF300CD3379 /* CoreGraphics.framework */; };
@@ -27,11 +27,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9A4A41E5164E065B00BAA525 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
-		9A4A41E6164E065B00BAA525 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		9A4A41E9164E066700BAA525 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
-		9A4A41EA164E066700BAA525 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
-		9AA5F265169398820030536E /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		9ACF903E16C58EDC00063E35 /* Getting Real.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Getting Real.pdf"; sourceTree = "<group>"; };
+		9ACF904016C5915200063E35 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		9ACF904116C5915200063E35 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		9ACF904416C593D600063E35 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		9ACF904516C593D600063E35 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 		9AE325C1164CFAF300CD3379 /* SachDeveloper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SachDeveloper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AE325C5164CFAF300CD3379 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9AE325C7164CFAF300CD3379 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -98,16 +98,11 @@
 			children = (
 				9AE325D4164CFAF300CD3379 /* AppDelegate.h */,
 				9AE325D5164CFAF300CD3379 /* AppDelegate.m */,
-				9AE325DD164CFAF300CD3379 /* MainStoryboard.storyboard */,
-				9A4A41E5164E065B00BAA525 /* first.png */,
-				9A4A41E6164E065B00BAA525 /* first@2x.png */,
 				9AE325E0164CFAF300CD3379 /* FirstViewController.h */,
 				9AE325E1164CFAF300CD3379 /* FirstViewController.m */,
-				9A4A41E9164E066700BAA525 /* second.png */,
-				9A4A41EA164E066700BAA525 /* second@2x.png */,
+				9AE325DD164CFAF300CD3379 /* MainStoryboard.storyboard */,
 				9AE325E7164CFAF300CD3379 /* SecondViewController.h */,
 				9AE325E8164CFAF300CD3379 /* SecondViewController.m */,
-				9AA5F265169398820030536E /* index.html */,
 				9AE325CC164CFAF300CD3379 /* Supporting Files */,
 			);
 			path = SachDeveloper;
@@ -116,6 +111,11 @@
 		9AE325CC164CFAF300CD3379 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9ACF904016C5915200063E35 /* first.png */,
+				9ACF904116C5915200063E35 /* first@2x.png */,
+				9ACF904416C593D600063E35 /* second.png */,
+				9ACF904516C593D600063E35 /* second@2x.png */,
+				9ACF903E16C58EDC00063E35 /* Getting Real.pdf */,
 				9AE325CD164CFAF300CD3379 /* SachDeveloper-Info.plist */,
 				9AE325CE164CFAF300CD3379 /* InfoPlist.strings */,
 				9AE325D1164CFAF300CD3379 /* main.m */,
@@ -183,11 +183,11 @@
 				9AE325DA164CFAF300CD3379 /* Default@2x.png in Resources */,
 				9AE325DC164CFAF300CD3379 /* Default-568h@2x.png in Resources */,
 				9AE325DF164CFAF300CD3379 /* MainStoryboard.storyboard in Resources */,
-				9A4A41E7164E065B00BAA525 /* first.png in Resources */,
-				9A4A41E8164E065B00BAA525 /* first@2x.png in Resources */,
-				9A4A41EB164E066700BAA525 /* second.png in Resources */,
-				9A4A41EC164E066700BAA525 /* second@2x.png in Resources */,
-				9AA5F266169398820030536E /* index.html in Resources */,
+				9ACF903F16C58EDC00063E35 /* Getting Real.pdf in Resources */,
+				9ACF904216C5915200063E35 /* first.png in Resources */,
+				9ACF904316C5915200063E35 /* first@2x.png in Resources */,
+				9ACF904616C593D600063E35 /* second.png in Resources */,
+				9ACF904716C593D600063E35 /* second@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
